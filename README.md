@@ -18,6 +18,7 @@ The "Data Analysis" folder uses the already cleaned-up datasets ready to use wit
 The clean datasets are: 
   - Israel_dataset_clean.csv
   - clean_data_mx.csv
+
 The analysis codes are:
   - analysis_symptomatic.py: this program removes asymptomatic patients from each dataset and performs statistical tests (Pearson correlation coefficient, Jaccard index), as well as k-means clustering
   - analysis_symptomaticANDsymptomatic.py: this program performs the same statistical tests as above, but includes asymptomatic patients in the analysis
