@@ -24,7 +24,9 @@ if filename_csv == 'clean_data_mx.csv':
         columns={'tos': 'Cough', 'fiebre': 'Fever', 'odinogia': 'Sore Throat', 'disnea': 'Shortness of Breath',
                  'cefalea': 'Headache', 'edad': 'Age', 'sexo': 'Gender'})
     df['Gender'].replace({'F': 1, 'M': 0}, inplace=True)
-    # df.drop(columns='Gender', axis=1, inplace=True)
+    # Find ONLY symptomatic samples
+    df = df.loc[((df['Cough'] == 1) | (df['Fever'] == 1) | (df['Sore Throat'] == 1) | (
+            df['Shortness of Breath'] == 1) | (df['Headache'] == 1)), :]
     print(df.shape)
 
 elif filename_csv == 'MX_ISR_clean.csv':
@@ -35,7 +37,9 @@ elif filename_csv == 'MX_ISR_clean.csv':
 elif filename_csv == 'Israel_dataset_clean.csv':
     df.drop(columns='Unnamed: 0', axis=1, inplace=True)
     df.drop(columns='country_index', axis=1, inplace=True)
-    # df.drop(columns='Gender', axis=1, inplace=True)
+    # Find ONLY symptomatic samples
+    df = df.loc[((df['cough'] == 1) | (df['fever'] == 1) | (df['sore_throat'] == 1) | (
+                df['shortness_of_breath'] == 1) | (df['head_ache'] == 1)), :]
     df.astype(float)
     print(df.shape)
 
