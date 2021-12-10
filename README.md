@@ -5,11 +5,9 @@ Developed by: Paloma Cepeda and Nadav Zimron-Politi
 
 The following datasets were used for analysis:
 
-Mexico City Dataet: https://datos.cdmx.gob.mx/dataset/base-covid-sinave
-(downloaded October 12, 2021; last accessed December 10, 2021)
+Mexico City Dataset: https://datos.cdmx.gob.mx/dataset/base-covid-sinave
+(downloaded: October 12, 2021; last accessed: December 10, 2021)
 
 Israel Dataset:
-(downloaded , 2021; last accessed December 10, 2021)
-
-
+(downloaded: , 2021; last accessed: December 10, 2021)
 
