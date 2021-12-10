@@ -8,6 +8,6 @@ The following datasets were used for analysis:
 Mexico City Dataset: https://datos.cdmx.gob.mx/dataset/base-covid-sinave
 (downloaded: October 12, 2021; last accessed: December 10, 2021)
 
-Israel Dataset:
-(downloaded: , 2021; last accessed: December 10, 2021)
+Israel Dataset: https://data.gov.il/dataset/covid-19
+(downloaded: October 27, 2021; last accessed: December 10, 2021)
 
