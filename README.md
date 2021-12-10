@@ -12,7 +12,7 @@ Israel Dataset: https://data.gov.il/dataset/covid-19
 (downloaded: October 27, 2021; last accessed: December 10, 2021)
 
 The "Data Cleanup" folder includes the codes used to reduce the number of samples and features presented in the raw data obtained above.
-The datasets were  cleaned to a level where they are comparable. They each contain 7 features, 5 of which are COVID-19 symptoms (Cough, Fever, Sore throat, Shortness of breath, Headache) and gender (if women=1) and age group (if over 60=1). All samples are of patients who tested positive for COVID-19.
+The datasets were  cleaned to a level where they are comparable. They each contain 7 features, 5 of which are COVID-19 symptoms (Cough, Fever, Sore throat, Shortness of breath, Headache) and gender (if gender is female = 1) and age group (if age over 60 = 1). All samples are of patients who tested positive for COVID-19.
 
 The "Data Analysis" folder uses the already cleaned-up datasets ready to use with the provided codes.
 The clean datasets are: 
