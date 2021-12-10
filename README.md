@@ -26,7 +26,9 @@ The analysis codes are:
 
 
 Contact information:
-Paloma Cepeda: pcepeda@nevada.unr.edu
+
+Paloma Cepeda: pcepeda@nevada.unr.edu 
+
 Nadav Zimron-Politi: nzimronpoliti@nevada.unr.edu
 
 Please contact us for any issues or suggestions. Thank you.
