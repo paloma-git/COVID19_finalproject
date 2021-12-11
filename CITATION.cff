@@ -1,0 +1,12 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Cepeda"
+  given-names: "Paloma"
+- family-names: "Zimron-Politi"
+  given-names: "Nadav"
+title: "My Research Software"
+version: 1.0.0
+doi: 
+date-released: 2021-12-10
+url: "https://github.com/paloma-git/COVID19_finalproject.git"
